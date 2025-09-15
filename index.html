@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stupidle</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="/src/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/src/main.js"></script>
+</head>
+<body>
+<main>
+    <section id="titleSection">
+        <button id="newGame" onclick="newGame()">&#x27F3;</button>
+        <h1 id="title">
+            stupidle
+        </h1>
+    </section>
+    <div id="board">
+        <!-- GENERATED CONTENT -->
+    </div>
+    <div id="keyboard">
+        <div class="keyRow" id="kr1">
+            <button class="key" id="kQ" onclick="kType('Q')">Q</button>
+            <button class="key" id="kW" onclick="kType('W')">W</button>
+            <button class="key" id="kE" onclick="kType('E')">E</button>
+            <button class="key" id="kR" onclick="kType('R')">R</button>
+            <button class="key" id="kT" onclick="kType('T')">T</button>
+            <button class="key" id="kY" onclick="kType('Y')">Y</button>
+            <button class="key" id="kU" onclick="kType('U')">U</button>
+            <button class="key" id="kI" onclick="kType('I')">I</button>
+            <button class="key" id="kO" onclick="kType('O')">O</button>
+            <button class="key" id="kP" onclick="kType('P')">P</button>
+        </div>
+        <div class="keyRow" id="kr2">
+            <button class="key" id="kA" onclick="kType('A')">A</button>
+            <button class="key" id="kS" onclick="kType('S')">S</button>
+            <button class="key" id="kD" onclick="kType('D')">D</button>
+            <button class="key" id="kF" onclick="kType('F')">F</button>
+            <button class="key" id="kG" onclick="kType('G')">G</button>
+            <button class="key" id="kH" onclick="kType('H')">H</button>
+            <button class="key" id="kJ" onclick="kType('J')">J</button>
+            <button class="key" id="kK" onclick="kType('K')">K</button>
+            <button class="key" id="kL" onclick="kType('L')">L</button>
+        </div>
+        <div class="keyRow" id="kr3">
+            <button class="key" id="kEnter" onclick="submit()">ENTER</button>
+            <button class="key" id="kZ" onclick="kType('Z')">Z</button>
+            <button class="key" id="kX" onclick="kType('X')">X</button>
+            <button class="key" id="kC" onclick="kType('C')">C</button>
+            <button class="key" id="kV" onclick="kType('V')">V</button>
+            <button class="key" id="kB" onclick="kType('B')">B</button>
+            <button class="key" id="kN" onclick="kType('N')">N</button>
+            <button class="key" id="kM" onclick="kType('M')">M</button>
+            <button class="key" id="kBackspace" onclick="back()">&#x232B;</button>
+        </div>
+    </div>
+</main>
+<div id="messageContainer">
+    <p id="message">
+        nevermind
+    </p>
+    <button id="messageClose" onclick="closeMessage()">
+        ok
+    </button>
+</div>
+</body>
+</html>

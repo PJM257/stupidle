@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g xmlns="http://www.w3.org/2000/svg" style="visibility: visible;">
+        <rect x="0" y="0" style="fill: rgb(0, 0, 0);" width="240" height="240"/>
+        <rect x="15" y="15" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+        <rect x="15" y="90" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+        <rect x="15" y="165" style="fill: rgb(119, 102, 51);" width="60" height="60"/>
+        <rect x="90" y="15" style="fill: rgb(119, 102, 51);" width="60" height="60"/>
+        <rect x="165" y="15" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+        <rect x="90" y="90" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+        <rect x="165" y="90" style="fill: rgb(119, 102, 51);" width="60" height="60"/>
+        <rect x="90" y="165" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+        <rect x="165" y="165" style="fill: rgb(51, 51, 51);" width="60" height="60"/>
+    </g>
+</svg>
